@@ -17,7 +17,7 @@ int main() {
     precio = distanciaTotal * 0.23;
 
     if (dias > 7 && distanciaTotal > 800) {
-        precioFinal = precio * 0.70; // Aplica 30% de descuento
+        precioFinal = precio * 0.70; 
     } else {
         precioFinal = precio;
     }
@@ -53,7 +53,7 @@ int main() {
     precio = distanciaTotal * 0.23;
 
     if (dias > 7 && distanciaTotal > 800) {
-        precioFinal = precio * 0.70; // Descuento del 30%
+        precioFinal = precio * 0.70; 
     } else {
         precioFinal = precio;
     }
