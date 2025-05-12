@@ -1,17 +1,17 @@
 //Tarea2
 //Ejercicio 3
 #include <stdio.h>
-#define PI 3.1416
 
-int main () {
-    float radio, area, circunferencia;
-    
-    printf("Ingrese el radio de la circunferencia:");
-    scanf("%f", &radio);
-    area = PI * radio * radio;
-    circunferencia = radio * 2 * PI;
-    
-    printf("Area: %.2f\n", area);
-    printf("Circunferencia: %.2f\n", circunferencia);
-return 0;
+int main() {
+    float dolares, pesos;
+    const float tasaCambio = 11.96;
+
+    printf("Ingrese la cantidad en dólares: ");
+    scanf("%f", &dolares);
+
+    pesos = dolares * tasaCambio;
+
+    printf("Equivale a %.2f pesos.\n", pesos);
+
+    return 0;
 }
