@@ -3,11 +3,13 @@
 #include <stdio.h>
 
 int main() {
-    int arreglo[5];  // Puedes cambiar el tamaño
-    int suma = 0;
+    int arreglo[100], n, suma = 0;
 
-    printf("Ingresa 5 números enteros:\n");
-    for (int i = 0; i < 5; i++) {
+    printf("Ingrese la cantidad de elementos del arreglo: ");
+    scanf("%d", &n);
+
+    for(int i = 0; i < n; i++) {
+        printf("Elemento %d: ", i + 1);
         scanf("%d", &arreglo[i]);
         suma += arreglo[i];
     }
