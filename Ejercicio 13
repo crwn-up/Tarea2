@@ -1,0 +1,17 @@
+//Ejercicio 13
+//Tarea 2
+#include <stdio.h>
+
+int main() {
+    int arreglo[5];  // Puedes cambiar el tamaño
+    int suma = 0;
+
+    printf("Ingresa 5 números enteros:\n");
+    for (int i = 0; i < 5; i++) {
+        scanf("%d", &arreglo[i]);
+        suma += arreglo[i];
+    }
+
+    printf("La suma de los elementos es: %d\n", suma);
+    return 0;
+}
